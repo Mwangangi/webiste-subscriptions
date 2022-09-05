@@ -16,7 +16,7 @@ MAIL_ENCRYPTION=tls
 
 - Run migrations to generate database tables for all created Models
 
-- Run these commands to generate queue table in database
+- Run these commands to generate queue table in database if not already generated
 ```
 php artisan queue:table
 ```
