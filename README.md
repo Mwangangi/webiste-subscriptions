@@ -14,8 +14,15 @@ MAIL_PASSWORD={mailtrap_PASSWORD}
 MAIL_ENCRYPTION=tls
 ```
 
-- Run migrations to generate all database tables
+- Run migrations to generate database tables for all created Models
 
+- Run these commands to generate queue table in database
+```
+php artisan queue:table
+```
+```
+php artisan migrate
+```
 Once website posts and subscribers have been created using the shared Postman collection, you can test the service by running these commands below:
 
 - To send job to queue
